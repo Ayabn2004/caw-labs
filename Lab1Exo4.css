@@ -1,0 +1,49 @@
+/* 3. Global page styles */
+* {
+    margin: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+}
+
+/* 4. Body margins */
+body {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+/* 5. Font family */
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* 6. Font size and line height */
+body {
+    font-size: small;
+    line-height: 180%;
+}
+
+/* 7. Specific element styles */
+h1 {
+    color: #ffffdd;
+}
+
+h2 {
+    color: #966b72;
+    font-family: Georgia;
+}
+
+/* First h2 and first p */
+h2:first-of-type {
+    font-size: 75%;
+}
+
+p:first-of-type {
+    font-size: 70%;
+}
+
+/* Second paragraph indentation */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
